@@ -9,7 +9,7 @@ public class Preguica extends Animal{
 	
 	@Override
 	public String emitirSom() {
-		return "...";
+		return "...G...r...r...";
 	}
 	
 }
