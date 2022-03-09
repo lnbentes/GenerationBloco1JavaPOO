@@ -1,13 +1,14 @@
 package br.com.generation48.lucasbentes.HeranPoli.Exercicio12;
 
-public class Animal {
+public abstract class Animal {
 	
 	private String nome;
 	private int idade;
-	protected int velocidade;
 	
-	public String emitirSom() {
-		return "Grauu...";
+	public abstract String emitirSom();
+	
+	public String mover() {
+		return "Correndo...";
 	}
 	
 	public String getNome() {

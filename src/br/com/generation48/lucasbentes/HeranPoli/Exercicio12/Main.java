@@ -25,9 +25,9 @@ anterior e invoque o método que emite o som de cada um de forma polimórfica, ist
 		preguica.setNome("Bradypus variegatus");
 		preguica.setIdade(10);
 		
-		System.out.println("O cachorro esta correndo a: " + cachorro.correr(20, 20) + ", Emitindo o som: " + cachorro.emitirSom());
-		System.out.println("O cachorro esta correndo a: " + cavalo.correr(20, 5) + ", Emitindo o som: " + cavalo.emitirSom());
-		System.out.println("O cachorro esta correndo a: " + preguica.subirArvore(20, 60) + ", Emitindo o som: " + preguica.emitirSom());
+		System.out.println("O cachorro esta " + cachorro.mover() + ", Emitindo o som: " + cachorro.emitirSom());
+		System.out.println("O cavalo esta " + cavalo.mover() + ", Emitindo o som: " + cavalo.emitirSom());
+		System.out.println("A preguica esta " + preguica.mover() + ", Emitindo o som: " + preguica.emitirSom());
 		
 	}
 }
