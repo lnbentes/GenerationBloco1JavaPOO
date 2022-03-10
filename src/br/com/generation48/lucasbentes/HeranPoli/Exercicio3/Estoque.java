@@ -20,7 +20,11 @@ public class Estoque {
 		lista.remove(numeroDoObjeto - 1);
 	}
 	
-	public void atualizar() {
+	public void atualizar(int index, String objeto) {
+		lista.add(index, objeto);
+	}
+	
+	public void organizar() {
 		Collections.sort(lista);
 	}
 	

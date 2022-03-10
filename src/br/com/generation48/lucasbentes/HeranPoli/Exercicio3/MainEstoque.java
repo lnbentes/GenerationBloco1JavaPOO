@@ -17,7 +17,11 @@ public class MainEstoque {
 		
 		lista.listar();
 		
-		lista.atualizar();
+		lista.atualizar(1, "Arroz");
+		
+		lista.listar();
+		
+		lista.organizar();
 		
 		lista.listar();
 
